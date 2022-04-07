@@ -1,0 +1,60 @@
+.logo {
+    height: 50px;
+    width: 300px;
+}
+.menu-items {
+    background: #f3f3f3;
+    border: 1px solid black;
+    border-radius: 10px;
+
+}
+.entree-container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.entree-item {
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 10px;
+    width: 95%;
+    background: white;
+}
+.dish-container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.dish {
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 10px;
+    width: 95%;
+}
+.dessert-container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.dessert-item {
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 10px;
+    width: 95%;
+}
+.order-button button {
+    /* background: #FF79DA; */
+    background-image: linear-gradient(#FF79DA, #9356DC);
+    width: 150px;
+    height: 30px;
+    color: white;
+    border: 1px solid #FF79DA;
+    border-radius: 20px;
+}
+.footer-wrapper {
+    background: black;
+
+}
+.footer {
+    color: white;
+}
