@@ -2,6 +2,13 @@
     height: 50px;
     width: 300px;
 }
+.menu-background {
+    background-image: url("images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg");
+    height: 400px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
 .menu-items {
     background: #f3f3f3;
     border: 1px solid black;
@@ -30,6 +37,7 @@
     border-radius: 20px;
     padding: 10px;
     width: 95%;
+    background: white;
 }
 .dessert-container {
     display: flex;
@@ -41,8 +49,9 @@
     border-radius: 20px;
     padding: 10px;
     width: 95%;
+    background: white;
 }
-.order-button button {
+.menu-items button {
     /* background: #FF79DA; */
     background-image: linear-gradient(#FF79DA, #9356DC);
     width: 150px;

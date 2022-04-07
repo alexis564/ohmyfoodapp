@@ -2,6 +2,13 @@
     height: 50px;
     width: 300px;
 }
+.menu-background {
+    background-image: url("images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg");
+    height: 400px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
 .menu-items {
     background: #f3f3f3;
     border: 1px solid black;
