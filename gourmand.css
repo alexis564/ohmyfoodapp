@@ -9,16 +9,33 @@
     background-size: cover;
     background-position: center;
 }
+.menu-title {
+    padding-left: 10px;
+}
 .menu-items {
     background: #f3f3f3;
     border: 1px solid black;
-    border-radius: 10px;
-
+    border-radius: 30px;
+    margin-top: -60px
+}
+.border-line {
+    width: 40px;
+    height: 3px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    margin-left: 15px;
+    background: #99E2D0;
+}
+.entrees h4 {
+    text-transform: uppercase;
+    padding-left: 15px;
+    margin-bottom: 0;
 }
 .entree-container {
     display: flex;
     flex-direction: column;
     gap: 15px;
+    align-items: center;
 }
 .entree-item {
     border: 1px solid black;
@@ -27,10 +44,15 @@
     width: 95%;
     background: white;
 }
+.main-dishes h4 {
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
 .dish-container {
     display: flex;
     flex-direction: column;
     gap: 15px;
+    align-items: center;
 }
 .dish {
     border: 1px solid black;
@@ -39,10 +61,15 @@
     width: 95%;
     background: white;
 }
+.desserts h4 {
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
 .dessert-container {
     display: flex;
     flex-direction: column;
     gap: 15px;
+    align-items: center;
 }
 .dessert-item {
     border: 1px solid black;
@@ -51,7 +78,7 @@
     width: 95%;
     background: white;
 }
-.order-button button {
+.menu-items button {
     /* background: #FF79DA; */
     background-image: linear-gradient(#FF79DA, #9356DC);
     width: 150px;
@@ -60,6 +87,7 @@
     border: 1px solid #FF79DA;
     border-radius: 20px;
 }
+
 .footer-wrapper {
     background: black;
 
