@@ -11,12 +11,15 @@
 }
 .menu-title {
     padding-left: 10px;
+    font-family: 'Shrikhand';
 }
 .menu-items {
     background: #f3f3f3;
     border: 1px solid black;
     border-radius: 30px;
-    margin-top: -60px
+    margin-top: -60px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
 }
 .border-line {
     width: 40px;
@@ -30,11 +33,13 @@
     text-transform: uppercase;
     padding-left: 15px;
     margin-bottom: 0;
+    font-weight: 200;
 }
 .entree-container {
     display: flex;
     flex-direction: column;
     gap: 15px;
+    padding: 15px;
     align-items: center;
 }
 .entree-item {
@@ -47,11 +52,14 @@
 .main-dishes h4 {
     text-transform: uppercase;
     margin-bottom: 0;
+    padding-left: 15px;
+    font-weight: 200;
 }
 .dish-container {
     display: flex;
     flex-direction: column;
     gap: 15px;
+    padding: 15px;
     align-items: center;
 }
 .dish {
@@ -64,11 +72,14 @@
 .desserts h4 {
     text-transform: uppercase;
     margin-bottom: 0;
+    padding-left: 15px;
+    font-weight: 200;
 }
 .dessert-container {
     display: flex;
     flex-direction: column;
     gap: 15px;
+    padding: 15px;
     align-items: center;
 }
 .dessert-item {
@@ -87,11 +98,11 @@
     border: 1px solid #FF79DA;
     border-radius: 20px;
 }
-
 .footer-wrapper {
     background: black;
 
 }
 .footer {
     color: white;
+    font-family: 'Roboto', sans-serif;
 }
