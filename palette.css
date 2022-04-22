@@ -15,6 +15,32 @@
     padding-left: 10px;
     font-family: 'Shrikhand';
 }
+.fa.fa-heart-o {
+    position: relative;
+    outline: 0;
+    overflow: hidden;
+}
+
+.fa.fa-heart-o::after {
+    content:"";
+    position: absolute;
+    bottom: -50%;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: #9356dc;
+    border-radius: 45%;
+    animation: spin 5s ease-in-out infinite;
+}
+@keyframes spin {
+    0% {
+        transform: translateY(0) rotate(0deg);
+    }
+    100% {
+        transform: translateY(-100%) rotate(500deg);
+    }
+}
+
 .menu-items {
     background: #f3f3f3;
     border: 1px solid #f3f3f3;
@@ -45,7 +71,7 @@
     align-items: center;
 }
 .entree-item {
-    border: 1px solid black;
+    border: 1px solid white;
     border-radius: 20px;
     padding: 10px;
     width: 95%;
@@ -65,7 +91,7 @@
     align-items: center;
 }
 .dish {
-    border: 1px solid black;
+    border: 1px solid white;
     border-radius: 20px;
     padding: 10px;
     width: 95%;
@@ -85,14 +111,19 @@
     align-items: center;
 }
 .dessert-item {
-    border: 1px solid black;
+    border: 1px solid white;
     border-radius: 20px;
     padding: 10px;
     width: 95%;
     background: white;
 }
-.menu-items button {
-    /* background: #FF79DA; */
+.btn-wrapper {
+    margin: 0;
+    text-align: center;
+}
+
+ .menu-items button {
+     background: #FF79DA; 
     background-image: linear-gradient(#FF79DA, #9356DC);
     width: 150px;
     height: 30px;
@@ -100,6 +131,8 @@
     border: 1px solid #FF79DA;
     border-radius: 20px;
 }
+
+
 .footer-wrapper {
     background: black;
 
