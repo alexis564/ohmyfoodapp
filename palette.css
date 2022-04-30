@@ -118,7 +118,7 @@
     transform: scaleX(1);
 }
 .main-dishes {
-    animation: slide_up 1.5s ease;
+    animation: slide_up 3s ease;
 }
 .main-dishes h4 {
     text-transform: uppercase;
@@ -162,7 +162,7 @@
     transform: scaleX(1);
 }
 .desserts {
-    animation: slide_up 1.5s ease;
+    animation: slide_up 4.5s ease;
 }
 .desserts h4 {
     text-transform: uppercase;
